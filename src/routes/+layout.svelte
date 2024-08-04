@@ -34,7 +34,7 @@
 						<li><a>Submenu 2</a></li>
 					</ul>
 				</li>
-				<li><a>Item 3</a></li>
+				<li><a href="/pricing">Pricing</a></li>
 			</ul>
 		</div>
 		<a href="/" class="btn btn-ghost text-xl">Herta SaaS</a>
