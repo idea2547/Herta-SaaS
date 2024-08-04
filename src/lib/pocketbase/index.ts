@@ -11,6 +11,7 @@ export const createAdminClient = async () => {
         autoRefreshThreshold: 30 * 60
         }
     );
+    console.log("SUCCEED CREATE PB")
     adminClient.autoCancellation(false)
     return adminClient;
 }

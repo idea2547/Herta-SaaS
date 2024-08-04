@@ -20,7 +20,7 @@ export const POST: RequestHandler = async ({ locals, request, cookies }) => {
     
     const data = await request.json();
     const items = data.items;
-    const userId = "123";
+    const userId = locals.user?.id || 'null' ;
     
     /*
         we have: [ { id: "1", quantity: 6 }, { id: "2", quantity: 3 } ]

@@ -6,6 +6,7 @@ export const handle = async ({ event, resolve }) => {
 	/* event.locals.pb.admins.authWithPassword(import.meta.env.VITE_AUTH_ADMIN_NAME, import.meta.env.VITE_AUTH_ADMIN_PASS) */
 	event.locals.pb.authStore.loadFromCookie(event.request.headers.get('cookie') || '');
 
+	console.log('pocketbase init')
 	try {
 		if (event.locals.pb.authStore.isValid) {
 			const user = await event.locals.pb.collection('users').getOne(event.locals.pb.authStore.model.id);
@@ -17,6 +18,8 @@ export const handle = async ({ event, resolve }) => {
 	}
 
 	const response = await resolve(event);
+
+	console.log('pocketbase exist')
 
 	response.headers.append(
 		'set-cookie',

@@ -1,5 +1,6 @@
 <script>
 	import '../app.css';
+	export let data;
 </script>
 
 <div class="navbar bg-base-100">
@@ -54,7 +55,14 @@
 		</ul>
 	</div>
 	<div class="navbar-end">
-		<a class="btn">Login</a>
+		{#if data.user}
+		<form action="/logout" method="POST">
+			<button class="btn" type="submit">Logout</button>
+		</form>
+		{:else}
+			<a href="/login" class="btn">Login</a>
+		{/if}
+		
 	</div>
 </div>
 

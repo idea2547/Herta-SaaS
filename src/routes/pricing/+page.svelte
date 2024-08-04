@@ -90,22 +90,7 @@
 						<p>The template is under the MIT license.</p>
 					</div>
 				</div>
-				<div class="collapse collapse-arrow join-item border border-primary">
-					<input type="radio" name="faq-accordion" />
-					<div class="collapse-title text-lg font-medium">
-						Can I try out purchase flows without real a credit card?
-					</div>
-					<div class="collapse-content">
-						<p>
-							Our demo page <a href="https://saasstarter.work" class="link">SaasStarter.work</a> has
-							a functional demo page, using Stripe's test environment.
-						</p>
-						<p class="mt-4">
-							You can use the credit card number 4242 4242 4242 4242 with any future expiry date to
-							test the payment and upgrade flows.
-						</p>
-					</div>
-				</div>
+			
 			</div>
 		</div>
 
