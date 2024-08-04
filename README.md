@@ -1,4 +1,15 @@
-# create-svelte
+## About Pocketbase Hosting
+https://pockethost.io/ - Free pocketbase host
+
+
+## env
+```
+VITE_STRIPE_SECRET_KEY=
+VITE_BASE_URL=
+VITE_AUTH_ADMIN_NAME=https://____.pockethost.io/
+VITE_AUTH_ADMIN_PASS=
+```
+## create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
 
