@@ -6,7 +6,7 @@
 	<title>RENISHIP</title>
 </svelte:head>
 
-<section id="home" class="pt-32 sm:pt-40 md:pt-28 from-indigo-600 to-indigo-0 text-white">
+<section id="home" class="pt-32 sm:pt-40 md:pt-28 from-indigo-600 to-indigo-0">
 	<div
 		class="mt-0 flex flex-col items-center justify-center space-y-5 px-4 md:px-10 lg:w-2/3 mx-auto"
 	>
