@@ -1,3 +1,14 @@
+# Herta SaaS Template 🚀
+A fast, lightweight, and powerful SaaS template built with SvelteKit, Pocketbase, Stripe, and DaisyUI to help you kickstart your next side project.
+
+## Overview
+The Herta SaaS Template is designed to provide developers with a scalable and flexible starting point for building SaaS applications. It leverages modern technologies to ensure a seamless developer experience and efficient user interactions.
+
+- Frontend: SvelteKit for fast and responsive web applications.
+- Backend: Pocketbase for managing users, authentication, and database.
+- Payments: Stripe integration for easy payment processing.
+- Styling: DaisyUI with Tailwind CSS for beautiful and customizable UI components.
+
 ## About Pocketbase Hosting
 https://pockethost.io/ - Free pocketbase host
 
