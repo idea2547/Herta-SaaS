@@ -1,4 +1,4 @@
-# Herta SaaS Template 🚀
+# Herta SaaS Template - kurukuru~ 🚀
 A fast, lightweight, and powerful SaaS template built with SvelteKit, Pocketbase, Stripe, and DaisyUI to help you kickstart your next side project.
 
 ## Overview
