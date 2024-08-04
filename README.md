@@ -20,45 +20,26 @@ VITE_BASE_URL=
 VITE_AUTH_ADMIN_NAME=https://____.pockethost.io/
 VITE_AUTH_ADMIN_PASS=
 ```
-## create-svelte
-
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+## Setup
+Clone the repository:
 ```
-
+git clone [https://github.com/idea2547/herta-saas.git](https://github.com/idea2547/Herta-SaaS.git)
+cd herta-saas
+Install dependencies:
+```
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-```bash
+## Run the development server:
+
+```
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+Your application should be running on http://localhost:5173.
 ```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
-
+Roadmap
+- [x] **Stripe subscription**:
+- [x] **Subscription Management**: Integrate with Stripe for subscription handling.
 
 ## Contributing
 We welcome contributions from the community! Please follow these guidelines to contribute:
