@@ -38,8 +38,8 @@ npm run dev
 Your application should be running on http://localhost:5173.
 ```
 Roadmap
-- [x] **Stripe subscription**:
-- [x] **Subscription Management**: Integrate with Stripe for subscription handling.
+- [ ] **Stripe subscription**:
+- [ ] **Subscription Management**: Integrate with Stripe for subscription handling.
 
 ## Contributing
 We welcome contributions from the community! Please follow these guidelines to contribute:
