@@ -2,6 +2,18 @@
     import PricingModule from "./pricing_module.svelte"
     
   
+
+	export let data;
+	let packages = JSON.parse(data?.packages).sort((a, b) => {
+		if (a.name === "LifeTime") return -1;
+		if (b.name === "LifeTime") return 1;
+		if (a.price_monthly === 0) return 1;
+		if (b.price_monthly === 0) return -1;
+		if (a.price_monthly === -5) return 1;
+		if (b.price_monthly === -5) return -1;
+		return a.price_monthly - b.price_monthly;
+	});
+	
     type PlanFeatureRow = {
       name: string
       freeIncluded?: boolean
@@ -50,7 +62,7 @@
 
 <svelte:head>
 	<title>Pricing</title>
-	<meta name="description" content="Pricing - RENISHIP" />
+	<meta name="description" content="Pricing - HertaSaaS" />
 </svelte:head>
 
 <div class="min-h-[70vh] pb-8 pt-[5vh] px-4">
@@ -60,7 +72,7 @@
 	</h2>
 
 	<div class="w-full my-8">
-		<PricingModule callToAction="Get Started" highlightedPlanId="pro" />
+		<PricingModule callToAction="Get Started" highlightedPlanId="pro" datas={data}/>
 		<h1 class="text-2xl font-bold text-center mt-24">Pricing FAQ</h1>
 		<div class="flex place-content-center">
 			<div class="join join-vertical max-w-xl py-6 mx-auto">
