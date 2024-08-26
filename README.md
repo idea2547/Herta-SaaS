@@ -9,6 +9,11 @@ The Herta SaaS Template is designed to provide developers with a scalable and fl
 - Payments: Stripe integration for easy payment processing.
 - Styling: DaisyUI with Tailwind CSS for beautiful and customizable UI components.
 
+## About route
+Pricing plan page:
+- visit https://herta-saas.pages.dev/pricing
+- visit https://herta-saas.pages.dev/pricing/pb - pricing plan from pocketbase packages record - copy this and import collection to pocketbase https://gist.github.com/idea2547/ef0da3a7604f098a091b762291083ca1
+
 ## About Pocketbase Hosting
 https://pockethost.io/ - Free pocketbase host
 
